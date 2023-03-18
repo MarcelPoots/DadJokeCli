@@ -15,7 +15,7 @@ import java.net.http.HttpResponse;
 @ShellComponent
 public class DadJokeCommand {
 
-    @ShellMethod
+    @ShellMethod("Show a random Dad joke.")
     public void random() throws IOException, InterruptedException {
         Dotenv dotenv = Dotenv.load();
 
